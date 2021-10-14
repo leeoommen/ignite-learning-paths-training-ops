@@ -66,7 +66,7 @@
 			"properties": {
 				"mode": "Incremental",
 				"templateLink": {
-					"uri": "https://raw.githubusercontent.com/microsoft/ignite-learning-paths-training-ops/master/deployment/azuredeploy-tailwind.json"
+					"uri": "https://github.com/leeoommen/ignite-learning-paths-training-ops/blob/main/deployment/azuredeploy-tailwind.json"
 				},
 				"parameters": {
 					"servicePrincipalId": {
