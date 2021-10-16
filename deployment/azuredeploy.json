@@ -167,6 +167,9 @@
 				"restartPolicy": "Never",
 				"containers": [{
 					"name": "[variables('containerName')]",
+						"command": [
+							"/bin/sh"
+						],
 					"properties": {
 						"image": "[variables('deploymentImage')]",
 						"resources": {
